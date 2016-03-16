@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>三栏式布局</title>
+        <style>
+            body,div{
+                margin: 0px;
+                padding: 20px;
+            } 
+            #container{
+                background-color:#eee;
+                border:1px solid #999;
+                overflow: hidden;
+                margin:30px auto;
+
+            }
+            img{
+                width: 80px;
+                height: 80px;
+            }
+            #left img{
+                float: left;
+            }
+            #left span{
+                float:left;
+                margin-left: 20px;
+            }
+            #left,#right,#middle{
+                border:1px solid #999;
+                background-color: #fff;
+            }
+            #left{
+                width:200px;
+                float:left;
+            }
+            #right{
+                width:120px;
+                float:right;
+                text-align: center;
+            }
+            #right img{
+                margin-top: 20px;
+            }
+            #middle{
+                margin: 0 200px 0 280px;
+            }
+        </style>
+    </head>
+    <body>
+       <div id="container">
+            <div id="left"><img src="head.png"><span>丁丁</span></div> 
+            <div id="right">
+                <img src="head.png">
+                <img src="head.png">
+                <img src="head.png">
+                <img src="head.png">
+                <img src="head.png">
+            </div>
+            <div id="middle">
+                <h1>雷军：以后开两会争取不和董明珠坐一起</h1>
+                <p>“今天董明珠和雷军又坐在一起了。”3日的广东代表团全体会议上，同为全国人大代表参会的格力电器董事长董明珠和小米创始人雷军，挨坐一起相谈甚欢的照片，再一次引发媒体关注。而格力近日与苏宁“重修旧好”宣布合作一事，更让董明珠成为媒体穷追猛堵的焦点人物。</p>
+                <p>“我们之间不存在冤家、利益。”无论是再度合作的苏宁董事长张近东，还是曾立下“10亿赌约”的雷军，董明珠都坦言“关系不错”。而作为全国人大代表，董明珠今年将重点关注企业技术侵权的问题。</p>
+            </div>
+       </div> 
+    </body>
+</html>
